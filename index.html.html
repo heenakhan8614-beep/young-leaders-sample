@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Young Leaders | Help Your Child Speak Up & Grow in Confidence</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link rel="preload" as="image" href="https://youngleaders.in/wp-content/uploads/2025/02/WhatsApp-Image-2025-02-11-at-16.12.13.jpeg" fetchpriority="high"><link href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;800&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+:root{--navy:#14213d;--cream:#fff8ec;--coral:#ff6b57;--coral2:#e8523f;--yellow:#ffd166;--blue:#bde3f7;--ink:#33415c;--card:#fff}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:76px}
+body{margin:0;font-family:Nunito,system-ui,sans-serif;color:var(--ink);background:var(--cream);font-size:17px;line-height:1.6;overflow-x:hidden}
+h1,h2,h3{font-family:'Baloo 2',sans-serif;color:var(--navy);line-height:1.15;margin:0 0 .5em}
+h1{font-size:clamp(2.1rem,5vw,3.6rem)}h2{font-size:clamp(1.7rem,3.6vw,2.6rem)}
+img{max-width:100%;display:block}a{color:inherit}
+.wrap{max-width:1200px;margin:auto;padding:0 20px}section{padding:84px 0;position:relative}
+.btn{display:inline-block;background:var(--coral);color:#fff;font-weight:700;border:0;border-radius:99px;padding:15px 30px;text-decoration:none;cursor:pointer;font:700 1rem Nunito;box-shadow:0 8px 0 var(--coral2);transition:.2s;min-height:48px}
+.btn:hover{transform:translateY(3px);box-shadow:0 5px 0 var(--coral2)}.btn.sm{padding:10px 20px;box-shadow:0 4px 0 var(--coral2)}
+.link{font-weight:700;color:var(--navy);margin-left:18px;text-decoration-color:var(--coral);text-underline-offset:5px}
+header{position:sticky;top:0;z-index:50;background:rgba(255,248,236,.92);backdrop-filter:blur(10px);border-bottom:1px solid #f0e3cc}
+header .wrap{display:flex;align-items:center;justify-content:space-between;height:68px}
+header img{height:46px}nav{display:flex;gap:26px;align-items:center}nav a{text-decoration:none;font-weight:700;color:var(--navy)}nav a:hover{color:var(--coral)}
+.eyebrow{display:inline-block;background:var(--yellow);color:var(--navy);font-weight:800;letter-spacing:.12em;font-size:.875rem;padding:6px 14px;border-radius:99px;margin-bottom:16px}
+.hero{background:radial-gradient(circle at 85% 10%,var(--blue) 0,transparent 40%),var(--cream);padding-top:56px;overflow:hidden}
+.hero .wrap{display:grid;grid-template-columns:55fr 45fr;gap:40px;align-items:center}
+.badges{display:flex;flex-wrap:wrap;gap:10px;margin:22px 0 28px}.badges span{background:#fff;border:2px solid var(--navy);border-radius:99px;padding:5px 15px;font-weight:700;font-size:.9rem;color:var(--navy)}
+.trust{margin-top:22px;font-size:.92rem}
+.collage{position:relative;height:520px}
+.collage img{position:absolute;object-fit:cover;border-radius:28px;border:6px solid #fff;box-shadow:0 18px 40px rgba(20,33,61,.2)}
+.c1{width:72%;height:380px;right:0;top:0;animation:float 6s ease-in-out infinite}
+.c2{width:44%;height:200px;left:0;bottom:30px;animation:float 7s ease-in-out -2s infinite;transform:rotate(-4deg)}
+.c3{width:38%;height:170px;right:6%;bottom:0;animation:float 8s ease-in-out -4s infinite;transform:rotate(3deg)}
+.sticker{position:absolute;z-index:3;font-weight:800;font-family:'Baloo 2';padding:8px 16px;border-radius:99px;box-shadow:0 6px 14px rgba(0,0,0,.15);animation:wob 3s ease-in-out infinite}
+.s1{background:var(--yellow);color:var(--navy);top:8%;left:4%}.s2{background:var(--coral);color:#fff;top:52%;right:-2%;animation-delay:-1s}
+@keyframes float{50%{translate:0 -14px}}@keyframes wob{50%{transform:rotate(5deg) scale(1.06)}}
+.blob{position:absolute;border-radius:50%;filter:blur(2px);opacity:.5;animation:float 9s ease-in-out infinite;z-index:0}
+.marquee{background:var(--navy);color:#fff;overflow:hidden;white-space:nowrap;padding:14px 0;font-family:'Baloo 2';font-size:1.2rem}
+.marquee div{display:inline-block;animation:slide 28s linear infinite}.marquee span{margin:0 26px;color:var(--yellow)}
+@keyframes slide{to{transform:translateX(-50%)}}
+.formsec{background:var(--navy)}.formsec .wrap{display:grid;grid-template-columns:1fr 1fr;gap:48px;align-items:center}
+.formsec h2,.formsec p{color:#fff}.pts{list-style:none;padding:0}.pts li{margin:12px 0;padding-left:34px;position:relative;color:#fff}
+.pts li:before{content:"★";position:absolute;left:0;color:var(--yellow);font-size:1.2rem}
+.formcard{background:#fff;border-radius:28px;padding:32px;box-shadow:0 24px 60px rgba(0,0,0,.35)}
+.formcard h3{margin-bottom:16px}label{display:block;font-weight:700;color:var(--navy);margin:14px 0 6px;font-size:.95rem}
+input,select{width:100%;min-height:48px;padding:10px 14px;border:2px solid #d9dfe9;border-radius:14px;font:inherit;background:#fff}
+input:focus,select:focus{outline:3px solid var(--blue);border-color:var(--navy)}
+.err{color:#c0392b;font-size:.875rem;min-height:1.1em}.note{font-size:.875rem;margin:14px 0}.chk{display:flex;gap:10px;align-items:flex-start;font-weight:600;font-size:.9rem;margin:16px 0 4px}.chk input{width:22px;min-height:22px;height:22px;margin-top:3px;flex:none}.sticky{transition:transform .25s}.sticky.hide{transform:translateY(110%)}
+.formcard .btn{width:100%;margin-top:8px}
+.ok{display:none;text-align:center;padding:30px 0}.ok .big{font-size:3.4rem;animation:pop .6s}
+@keyframes pop{0%{scale:0}70%{scale:1.3}100%{scale:1}}
+.grid3{display:grid;grid-template-columns:repeat(3,1fr);gap:24px}
+.card{background:var(--card);border-radius:24px;padding:26px;box-shadow:0 10px 30px rgba(20,33,61,.08);transition:.3s;border:2px solid transparent}
+.card:hover{transform:translateY(-8px) rotate(-.6deg);border-color:var(--yellow)}
+.center{text-align:center;max-width:760px;margin:0 auto 44px}
+.concern{background:#fff}.concern .card{background:var(--cream)}.ic{font-size:2.4rem;display:block;margin-bottom:8px}
+.skills .card:nth-child(3n+1) .ic{background:var(--yellow)}.skills .card:nth-child(3n+2) .ic{background:var(--blue)}.skills .card:nth-child(3n) .ic{background:#ffc9c0}
+.skills .ic{width:64px;height:64px;border-radius:20px;display:grid;place-items:center;font-size:1.9rem;transition:.4s}.skills .card:hover .ic{transform:rotate(360deg)}
+.skills small{color:#6b7790}
+.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:20px;position:relative;counter-reset:s}
+.steps:before{content:"";position:absolute;top:30px;left:8%;right:8%;border-top:4px dashed var(--coral);z-index:0}
+.step{text-align:center;position:relative;z-index:1}.step b{display:grid;place-items:center;width:62px;height:62px;margin:0 auto 14px;border-radius:50%;background:var(--coral);color:#fff;font:800 1.5rem 'Baloo 2';box-shadow:0 0 0 8px var(--cream)}
+.step:hover b{animation:pop .5s}
+.progs{background:linear-gradient(var(--blue),#e9f6fd)}
+.pc{padding:0;overflow:hidden}.pc img{width:100%;height:210px;object-fit:cover;transition:.5s}.pc:hover img{transform:scale(1.1)}
+.pc .body{padding:22px;background:#fff;position:relative}.pc .ph{overflow:hidden;background:linear-gradient(135deg,var(--yellow),var(--coral))}
+.pill{display:inline-block;background:var(--yellow);color:var(--navy);font-weight:700;font-size:.875rem;padding:3px 12px;border-radius:99px;margin:0 6px 8px 0}.pill.b{background:var(--blue)}
+.pc .btn{margin-top:8px}
+.price .card{text-align:center}.price .feat{border:3px solid var(--coral);transform:scale(1.04)}
+.price .incl{list-style:none;margin:6px 0 16px;padding:0;text-align:left;display:inline-block}.price .incl li{padding-left:26px;position:relative;margin:6px 0;font-weight:600}.price .incl li:before{content:"✓";position:absolute;left:0;color:var(--coral);font-weight:800}.price .gst{margin:0 0 6px}.price .bookpay{display:block;margin-top:12px;font-weight:700;color:var(--navy);font-size:.9rem}.price .pnote{margin-top:28px;font-size:.95rem}.price .pnote a{font-weight:700;color:var(--navy)}.swipehint{display:none}
+.amt{font:800 2.2rem 'Baloo 2';color:var(--coral)}.price p{margin:6px 0 14px}
+.gal{display:grid;grid-template-columns:repeat(4,1fr);grid-auto-rows:190px;gap:14px}
+.gal figure{margin:0;position:relative;border-radius:22px;overflow:hidden;cursor:zoom-in;background:#e9f6fd}
+.gal figure:focus-visible{outline:4px solid var(--coral);outline-offset:3px}
+.gal .anchor{grid-column:span 2;grid-row:span 2}.gal .tall{grid-row:span 2}.gal .wide{grid-column:span 2}
+.gal img{width:100%;height:100%;object-fit:cover;transition:.6s;display:block}.gal figure:hover img{transform:scale(1.08)}
+.gal figcaption{position:absolute;left:12px;bottom:12px;background:var(--yellow);color:var(--navy);font-weight:800;padding:4px 14px;border-radius:99px;font-size:.88rem}
+.gal .anchor figcaption{font-size:1.05rem;padding:6px 18px}
+.lb{position:fixed;inset:0;background:rgba(20,33,61,.92);display:none;z-index:99;padding:20px;align-items:center;justify-content:center;flex-direction:column;gap:14px}.lb.on{display:flex}
+.lb img{max-width:100%;max-height:78vh;border-radius:18px;object-fit:contain}.lb .cap{color:#fff;font:800 1.05rem Nunito}
+.lb button{position:absolute;background:#fff;color:var(--navy);border:0;border-radius:99px;width:48px;height:48px;font:800 1.4rem Nunito;cursor:pointer}
+.lb button:focus-visible{outline:4px solid var(--yellow)}.lb .x{top:16px;right:16px}.lb .pv{left:16px;top:50%}.lb .nx{right:16px;top:50%}
+.galcta{margin:34px auto 0}
+.proof{background:#fff}.q{position:relative}.q:before{content:"“";font:800 5rem 'Baloo 2';color:var(--yellow);position:absolute;top:-10px;left:16px;line-height:1}
+.q{margin:0}.q blockquote{margin:0}.q p{margin:30px 0 0;font-size:.95rem;line-height:1.6}.q .who{margin-top:16px}.q .tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}.q.big{grid-row:span 2}.q.big p{font-size:1.1rem}.who{font-weight:800;color:var(--navy)}
+.pg{display:grid;grid-template-columns:1.2fr 1fr;gap:24px}.pg .col{display:grid;gap:24px}
+.safe .reach{margin-top:16px;font-weight:700}.safe .reach a{color:var(--navy)}.safe .acts{margin-top:14px;display:flex;flex-wrap:wrap;gap:12px 22px;align-items:center}.safe .grid2{display:grid;grid-template-columns:1fr 1fr;gap:20px}.warn{background:var(--yellow);border-radius:18px;padding:16px 20px;margin-top:22px;color:var(--navy);font-weight:600}
+.safe .wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center}.safe .pic{border-radius:30px;height:420px;object-fit:cover;width:100%;box-shadow:0 20px 50px rgba(20,33,61,.2)}
+.faqs details{background:var(--cream);box-shadow:none}summary:focus-visible{outline:3px solid var(--coral);outline-offset:4px;border-radius:8px}.faqgrid{display:grid;grid-template-columns:1.7fr 1fr;gap:32px;align-items:start;margin-top:30px}.faqcta{position:sticky;top:96px;background:var(--navy);color:#fff;border-radius:24px;padding:28px}.faqcta h3,.faqcta p{color:#fff}.faqcta p{margin:8px 0 18px}
+details{background:#fff;border-radius:16px;padding:16px 22px;margin-bottom:12px;box-shadow:0 4px 14px rgba(20,33,61,.06)}
+summary{font-weight:700;color:var(--navy);cursor:pointer;list-style:none;display:flex;justify-content:space-between}summary:after{content:"+";color:var(--coral);font-size:1.5rem;transition:.3s}details[open] summary:after{transform:rotate(45deg)}
+details p{margin:10px 0 0}
+.final{background:var(--navy);color:#fff;overflow:hidden}.final .wrap{display:grid;grid-template-columns:1.2fr 1fr;gap:40px;align-items:center}
+.final h2,.final p{color:#fff}.final img{border-radius:30px;height:340px;width:100%;object-fit:cover;border:6px solid #fff;transform:rotate(3deg);animation:float 7s ease-in-out infinite}
+.final .fcta{display:flex;flex-wrap:wrap;align-items:center;gap:16px 26px;margin-top:6px}.final .fnote{margin-top:22px;font-size:.9rem}.final .link{font-weight:700;text-decoration:underline}
+.final .link{color:#fff}
+footer{background:#0d1629;color:#cbd5e8;padding:30px 0;font-size:.9rem}footer .wrap{display:flex;flex-wrap:wrap;gap:12px 30px;justify-content:space-between;align-items:center}footer img{height:40px}footer a{color:var(--yellow)}
+.sticky{display:none}
+.rv{opacity:0;transform:translateY(40px);transition:opacity .8s,transform .8s}.rv.in{opacity:1;transform:none}
+@media(max-width:900px){nav a:not(.btn){display:none}.hero .wrap,.formsec .wrap,.safe .wrap,.final .wrap,.pg{grid-template-columns:1fr}
+.grid3,.steps{grid-template-columns:1fr}#pg{display:flex;grid-template-columns:none;overflow-x:auto;scroll-snap-type:x mandatory;gap:14px;margin:0 -20px;padding:4px 20px 14px;scroll-padding:0 20px;-webkit-overflow-scrolling:touch}#pg .pc{flex:0 0 80%;max-width:340px;scroll-snap-align:start}#pg .rv{opacity:1;transform:none}#pg:focus-visible{outline:3px solid var(--coral);outline-offset:2px}.swipehint{display:block;text-align:center;font-weight:700;color:var(--navy);font-size:.9rem;margin:0 0 8px}.steps:before{display:none}.gal{grid-template-columns:1fr 1fr;grid-auto-rows:150px;gap:10px}.gal .tall,.gal .wide{grid-column:auto;grid-row:auto}.gal .anchor{grid-column:span 2;grid-row:span 2}.lb .pv,.lb .nx{top:auto;bottom:16px}.collage{height:420px}.c1{height:290px}
+.price .feat{transform:none}section{padding:56px 0}.final .wrap>img{order:-1;height:260px;transform:rotate(2deg)}.final .fcta{flex-direction:column;align-items:stretch;text-align:center}.final .fcta .btn{width:100%;text-align:center}.faqgrid{grid-template-columns:1fr}.faqcta{position:static}.safe .grid2{grid-template-columns:1fr 1fr;gap:12px}.safe .grid2 .card{padding:14px;font-size:.9rem}
+.sticky{display:block;position:fixed;left:0;right:0;bottom:0;z-index:60;padding:10px 16px calc(10px + env(safe-area-inset-bottom));background:#fff;box-shadow:0 -6px 20px rgba(0,0,0,.12)}.sticky .btn{width:100%;text-align:center}body{padding-bottom:72px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
+
+.ftag{display:inline-flex;align-items:center;gap:8px;position:absolute;top:18px;left:20px;font:800 .875rem Nunito;letter-spacing:.1em;text-transform:uppercase;background:var(--navy);color:#fff;padding:5px 14px 5px 6px;border-radius:99px;z-index:5;opacity:.92}
+.ftag b{background:var(--coral);border-radius:99px;padding:2px 9px}
+.formsec .ftag,.final .ftag{background:#fff;color:var(--navy)}
+section{border-top:1px dashed rgba(20,33,61,.12)}.hero{border-top:0}.hero .ftag{top:6px}
+.dots{position:fixed;right:14px;top:50%;transform:translateY(-50%);z-index:70;display:flex;flex-direction:column;gap:9px}
+.dots a{width:12px;height:12px;border-radius:50%;background:#fff;border:2px solid var(--navy);position:relative;transition:.25s}
+.dots a.on{background:var(--coral);border-color:var(--coral);transform:scale(1.4)}
+.dots a span{position:absolute;right:22px;top:50%;transform:translateY(-50%);background:var(--navy);color:#fff;font:700 .875rem Nunito;padding:3px 10px;border-radius:99px;white-space:nowrap;opacity:0;pointer-events:none;transition:.2s}
+.dots a:hover span,.dots a.on span{opacity:1}
+@media(max-width:900px){.dots{display:none}.ftag{top:10px}}
+.merged{padding:0}.sub{padding:84px 0;position:relative}.sub+.sub{border-top:1px dashed rgba(20,33,61,.12)}@media(max-width:900px){.sub{padding:56px 0}}
+</style></head><body>
+<header><div class="wrap"><a href="#top"><img src="https://youngleaders.in/wp-content/uploads/2025/10/mobile-logo-e1713449575263-2-1024x304.png" alt="Young Leaders logo"></a>
+<nav><a href="#skills">Why Young Leaders</a><a href="#workshops">Workshops</a><a href="#pricing">Pricing</a><a href="#parents">Parent Stories</a><a class="btn sm" href="#enquire">Find a Workshop</a></nav></div></header>
+
+<section data-fold="Hero" data-n="01" class="hero" id="top"><span class="blob" style="width:180px;height:180px;background:var(--yellow);left:-60px;top:60px"></span>
+<div class="wrap"><div class="rv"><span class="eyebrow">CONFIDENCE BEYOND THE CLASSROOM</span>
+<h1>Help Your Child Speak Up, Think Independently &amp; Grow in Confidence.</h1>
+<p>Hands-on workshops for children aged 5–12 in Delhi NCR. From communication and leadership to creativity and everyday life skills, help your child learn by doing.</p>
+<div class="badges"><span>🎈 Ages 5–12</span><span>📍 Delhi NCR</span><span>🙌 Hands-on Workshops</span></div>
+<a class="btn" href="#enquire" data-t="hero_cta_click">Find a Workshop for My Child</a><a class="link" href="#workshops">Explore the Workshops</a>
+<p class="trust">✔ Enquiry only. No payment needed to ask.</p></div>
+<div class="collage rv"><span class="sticker s1">Learn by doing!</span><span class="sticker s2">Real workshops</span>
+<img class="c1" fetchpriority="high" decoding="async" src="https://youngleaders.in/wp-content/uploads/2025/10/WhatsApp-Image-2025-02-11-at-16.12.13.jpeg" alt="Children taking part in a Young Leaders leadership session">
+<img class="c2" loading="lazy" decoding="async" src="https://youngleaders.in/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-09-at-11.09.01-AM.jpeg" alt="Children making creative projects at a workshop">
+<img class="c3" loading="lazy" decoding="async" src="https://youngleaders.in/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-14-at-4.48.51-PM-scaled.jpeg" alt="Children exploring outdoors on a guided walk"></div></div></section>
+
+<div class="marquee"><div><span>★</span>Speak with confidence <span>★</span>Think independently <span>★</span>Lead &amp; take initiative <span>★</span>Create &amp; solve problems <span>★</span>Collaborate &amp; empathise <span>★</span>Build practical independence <span>★</span>Speak with confidence <span>★</span>Think independently <span>★</span>Lead &amp; take initiative <span>★</span>Create &amp; solve problems <span>★</span>Collaborate &amp; empathise <span>★</span>Build practical independence</div></div>
+
+<section data-fold="Enquiry Form" data-n="02" class="formsec" id="enquire"><div class="wrap"><div class="rv"><h2>Find the Right Workshop for Your Child.</h2>
+<p>Tell us a little about your child and we’ll help you explore age-appropriate workshops.</p>
+<ul class="pts"><li>Age-aware experiences, guided by facilitators</li><li>Venue and timing shared before booking</li><li>Real people on call: +91-8920402920</li></ul></div>
+<div class="formcard rv"><form id="f" novalidate><h3>Request Workshop Details</h3>
+<label for="n">Parent/guardian name*</label><input id="n" required autocomplete="name" aria-describedby="e_n"><div class="err" id="e_n" aria-live="polite"></div>
+<label for="p">Phone / WhatsApp*</label><input id="p" type="tel" inputmode="tel" required autocomplete="tel" aria-describedby="e_p"><div class="err" id="e_p" aria-live="polite"></div>
+<label for="a">Child’s age* (5–12)</label><input id="a" type="number" min="5" max="12" inputmode="numeric" required aria-describedby="e_a"><div class="err" id="e_a" aria-live="polite"></div>
+<label for="w">What would you like your child to develop?*</label><select id="w" required aria-describedby="e_w"><option value="">Choose one</option><option>Confidence &amp; communication</option><option>Leadership &amp; teamwork</option><option>Creativity</option><option>Life skills</option><option>Outdoor exploration</option><option>Not sure yet</option></select><div class="err" id="e_w" aria-live="polite"></div>
+<label for="l">Preferred location (optional)</label><input id="l" autocomplete="address-level2">
+<label class="chk" for="c"><input type="checkbox" id="c" required aria-describedby="e_c"><span>I’m the child’s parent/guardian and agree to be contacted about workshops. I’ve read the <a href="#" data-privacy>Privacy Notice</a>.*</span></label><div class="err" id="e_c" aria-live="polite"></div>
+<p class="note">We ask only for the details needed to suggest suitable workshops. This is an enquiry, not a confirmed booking. No payment is required to enquire.</p>
+<div class="err" id="e_f" role="alert"></div><button class="btn" type="submit">Request Workshop Details</button></form>
+<div class="ok" id="ok" tabindex="-1"><div class="big">🎉</div><h3>Thank you!</h3><p>Our team will share suitable options, dates, locations and prices.</p><a class="btn sm" href="#workshops">Browse Workshops</a></div></div></div></section>
+
+<section id="concerns" data-fold="Parent Concerns" data-n="03" class="concern"><div class="wrap"><div class="center rv"><h2>Your Child Has So Much to Say. Do They Feel Confident Saying It?</h2><p>Confidence isn’t built through textbooks alone. Children need opportunities to speak, try, make mistakes and discover what they can do.</p></div>
+<div class="grid3"><div class="card rv"><span class="ic">💬</span><h3>Knows the answer, but hesitates to speak.</h3></div><div class="card rv"><span class="ic">🤝</span><h3>Takes time to join unfamiliar groups.</h3></div><div class="card rv"><span class="ic">🧩</span><h3>Needs more chances to think and try independently.</h3></div></div>
+<p class="center rv" style="margin:36px auto 0"><b>That’s where learning by doing makes a difference.</b> <a class="link" href="#skills">See the Skills They’ll Practise</a></p></div></section>
+<section id="skills" data-fold="Skills" data-n="04" class="skills"><div class="wrap"><div class="center rv"><h2>Skills They’ll Use Far Beyond the Classroom.</h2><p>Each experience creates space to practise essential skills in the real world.</p></div>
+<div class="grid3">
+<div class="card rv"><span class="ic">🎤</span><h3>Speak with confidence</h3><small>Presentations, storytelling, discussion</small></div>
+<div class="card rv"><span class="ic">💡</span><h3>Think independently</h3><small>Decisions, challenges, ideas</small></div>
+<div class="card rv"><span class="ic">🚀</span><h3>Lead &amp; take initiative</h3><small>Team roles, group projects</small></div>
+<div class="card rv"><span class="ic">🛠️</span><h3>Create &amp; solve problems</h3><small>Hands-on building and making</small></div>
+<div class="card rv"><span class="ic">💛</span><h3>Collaborate &amp; empathise</h3><small>Shared tasks and listening</small></div>
+<div class="card rv"><span class="ic">🍕</span><h3>Build practical independence</h3><small>Everyday life skills</small></div></div>
+<p class="center rv" style="margin:34px auto 0"><a class="btn" href="#workshops">Explore Workshops for These Skills</a></p></div></section>
+
+<section id="how" data-fold="How It Works" data-n="05" style="background:#fff"><div class="wrap"><div class="center rv"><h2>More Than a Class. An Experience They’ll Remember.</h2></div>
+<div class="steps"><div class="step rv"><b>1</b><h3>Tell Us About Your Child</h3><p>Share their age and goals.</p></div><div class="step rv"><b>2</b><h3>Choose the Right Experience</h3><p>Find a suitable workshop, date and location.</p></div><div class="step rv"><b>3</b><h3>Learn by Doing</h3><p>Guided activities with peers.</p></div><div class="step rv"><b>4</b><h3>Take the Experience Home</h3><p>New ideas, stories and skills to keep practising.</p></div></div>
+<p class="center rv" style="margin:36px auto 0"><i>Every child starts somewhere. Let’s find their next step.</i><br><br><a class="btn" href="#enquire">Find a Workshop for My Child</a></p></div></section>
+<section id="workshops" data-fold="Workshops" data-n="06" class="progs"><div class="wrap"><div class="center rv"><h2>Not Just Classes. Experiences They’ll Look Forward To.</h2><p>Explore a workshop that matches your child’s interests and age.</p></div>
+<p class="swipehint" aria-hidden="true">Swipe to see more workshops →</p><div class="grid3" id="pg" role="region" aria-label="Workshops. Scroll sideways to see more." tabindex="0"></div></div></section>
+
+<section data-fold="Pricing" data-n="07" class="price" id="pricing"><!-- Prices from youngleaders.in/our-pricing (checked 19 Oct 2026). Re-confirm with client before launch. Single-workshop price is not published on the site. --><div class="wrap"><div class="center rv"><h2>Choose the Right Starting Point for Your Child.</h2><p>Leadership Program plans from Young Leaders. All prices include 18% GST.</p></div>
+<div class="grid3">
+<div class="card rv feat"><span class="pill b">A good place to start</span><h3>Foundation</h3><p>Leadership Program · 3 months</p><div class="amt">₹17,999</div><p class="gst"><small>Total incl. 18% GST<br>(₹15,253 + 18% GST)</small></p>
+<ul class="incl"><li>18 workshops</li><li>Valid for 3 months</li><li>All prices include GST</li><li>Venue &amp; timing shared before booking</li></ul>
+<a class="btn sm" href="#enquire" data-w="Foundation Plan" data-t="pricing_click">Enquire About This Option</a>
+<a class="link bookpay" href="https://rzp.io/rzp/rk48REF" target="_blank" rel="noopener" data-t="booking_redirect">Book &amp; Pay securely (Razorpay)</a></div>
+<div class="card rv"><h3>Advance</h3><p>Leadership Program · 6 months</p><div class="amt">₹32,999</div><p class="gst"><small>Total incl. 18% GST<br>(₹27,965 + 18% GST)</small></p>
+<ul class="incl"><li>40 workshops</li><li>Valid for 6 months</li><li>All prices include GST</li><li>Venue &amp; timing shared before booking</li></ul>
+<a class="btn sm" href="#enquire" data-w="Advance Plan" data-t="pricing_click">Enquire About This Option</a>
+<a class="link bookpay" href="https://rzp.io/rzp/dtf7OuU" target="_blank" rel="noopener" data-t="booking_redirect">Book &amp; Pay securely (Razorpay)</a></div>
+<div class="card rv"><h3>Comprehensive</h3><p>Leadership Program · 12 months</p><div class="amt">₹54,999</div><p class="gst"><small>Total incl. 18% GST<br>(₹46,609 + 18% GST)</small></p>
+<ul class="incl"><li>90+ workshops</li><li>Valid for 12 months</li><li>All prices include GST</li><li>Venue &amp; timing shared before booking</li></ul>
+<a class="btn sm" href="#enquire" data-w="Comprehensive Plan" data-t="pricing_click">Enquire About This Option</a>
+<a class="link bookpay" href="https://rzp.io/rzp/ziqUbLl" target="_blank" rel="noopener" data-t="booking_redirect">Book &amp; Pay securely (Razorpay)</a></div>
+</div>
+<p class="center pnote rv">Prefer to try one workshop first? <a href="#enquire" data-w="Single Workshop" data-t="pricing_click">Ask us for the current single-workshop price</a>. &nbsp;·&nbsp; <a href="https://wa.me/918920402920?text=Hi%20Young%20Leaders%2C%20I%27d%20like%20to%20know%20the%20cancellation%20and%20refund%20terms%20for%20the%20programme%20plans." target="_blank" rel="noopener" data-t="whatsapp_click">Cancellation &amp; refund terms: ask our team</a></p>
+</div></section>
+
+<section id="gallery" data-fold="Gallery" data-n="08" style="background:#fff"><div class="wrap"><div class="center rv"><h2>See What Learning by Doing Looks Like.</h2><p>Real moments from Young Leaders workshops — full of discovery, teamwork and first-time experiences.</p></div>
+<div class="gal" id="gal" role="list" aria-label="Photos from Young Leaders workshops"></div>
+<p class="center rv galcta"><a class="btn" href="#workshops">Choose an Experience</a></p></div></section>
+<section id="parents" data-fold="Parent Stories" data-n="09" class="proof" style="background:var(--cream)"><div class="wrap"><div class="center rv"><h2>The Best Feedback Comes from Parents.</h2><p>Hear from families who have experienced Young Leaders.</p></div>
+<!-- DEV NOTE: quotes below are verbatim from on-site reviews (typos kept). Get client-approved wording + name/quote consent before launch. No ratings, before/after stories or guarantees. Add a video review only if a genuine edited, captioned video exists. -->
+<div class="pg" role="list" aria-label="Parent reviews">
+<figure class="card q big rv" role="listitem"><blockquote><p>“I’m thrilled to tell you about my amazing time at the Young Leaders workshops! They really know how to make learning fun and engaging for kids. The hands-on activities were especially great, sparking creativity in such a fun way. If you’re looking for something enriching for your 6 to 12-year-old, I highly suggest Young Learners. It’s a fantastic opportunity for children to discover, learn, and grow in such a supportive environment.”</p></blockquote><figcaption class="who">Rumia Sharma · Parent<div class="tags"><span class="pill">Hands-on activities</span><span class="pill b">Creative &amp; engaging</span></div></figcaption></figure>
+<div class="col">
+<figure class="card q rv" role="listitem"><blockquote><p>“The workshops were absolutely wonderful! My daughter, @Khushi Khurana, had a fantastic time and gained valuable knowledge. She especially loved the heritage walk. Thank you for organizing such fantastic events—we’re eagerly looking forward to the next one!”</p></blockquote><figcaption class="who">Vinny Khurana · Parent<div class="tags"><span class="pill">Heritage walk</span><span class="pill b">Looking forward to the next one</span></div></figcaption></figure>
+<figure class="card q rv" role="listitem"><blockquote><p>“Rianna had an amazing time with Nidhis team at Sunder nursery. The immersive experience helped her appreciate the fauna and learn about trees. She was excited about the beeswax she got in the kit amd the lip balm she would make out of it.”</p></blockquote><figcaption class="who">Chandni · Parent<div class="tags"><span class="pill">Nature walk, Sunder Nursery</span></div></figcaption></figure></div></div>
+<p class="center rv" style="margin:34px auto 0"><a class="btn" href="#enquire">Find a Workshop for My Child</a></p></div></section>
+
+<section id="safety" data-fold="Safety" data-n="10" class="safe"><!-- DEV NOTE: Do NOT imply universal on-site nursing (live FAQs: trained nurse at SOME sessions only). Confirm supervision, emergency protocols, age grouping, accessibility and pick-up rules with operations. Optional: add a secondary exterior/location photo frame when available. -->
+<div class="wrap"><img class="pic rv" src="https://youngleaders.in/wp-content/uploads/2025/10/WhatsApp-Image-2025-10-14-at-4.44.50-PM-scaled.jpeg" alt="Facilitator guiding a small group of children"><div class="rv"><h2>A Space to Explore. With the Reassurance Parents Need.</h2>
+<div class="grid2" role="list"><div class="card" role="listitem"><b>Age-aware experiences</b><br>Sessions indicated by age group.</div><div class="card" role="listitem"><b>Guided activities</b><br>Facilitators support participation.</div><div class="card" role="listitem"><b>Clear venue &amp; timing</b><br>Session information shared before booking.</div><div class="card" role="listitem"><b>Parent support</b><br>Contact the team with questions.</div></div>
+<div class="warn" role="note"><b>Good to know:</b> Young Leaders does not offer a regular pick-up/drop-off service. Parents should confirm each workshop’s location and requirements.</div>
+<p class="reach">📞 <a href="tel:+918920402920" data-t="phone_click">+91-8920402920</a> · ✉️ <a href="mailto:nidhi@youngleaders.in" data-t="email_click">nidhi@youngleaders.in</a></p>
+<p class="acts"><a class="btn sm" href="https://wa.me/918920402920?text=Hi%20Young%20Leaders%2C%20I%20have%20a%20question%20about%20a%20workshop%20for%20my%20child.%20(From%20your%20website%3A%20Safety%20%26%20reassurance)" target="_blank" rel="noopener" data-t="whatsapp_click">Have a Question? Talk to Our Team</a><a class="link" href="#faqs">Read common questions</a></p></div></div></section>
+<section id="faqs" data-fold="FAQs" data-n="11" class="faqs" style="background:#fff"><!-- DEV NOTE: Answers must match the live FAQs and actual process. Confirm refund/cancellation policy before adding any related FAQ. -->
+<div class="wrap"><div class="center rv"><h2>Everything Parents Ask Before Booking.</h2></div>
+<div class="faqgrid"><div class="faqlist">
+<details class="rv"><summary>What age group are the workshops for?</summary><p>Most workshops are for ages 5–12; some are for ages 8–12.</p></details>
+<details class="rv"><summary>Where do workshops take place?</summary><p>At various Delhi NCR venues. The exact location is shown for the event you select.</p></details>
+<details class="rv"><summary>How long is a workshop?</summary><p>It varies. Check the specific workshop card.</p></details>
+<details class="rv"><summary>What should my child bring?</summary><p>A water bottle, and a snack where appropriate. Activity-specific details are shared ahead.</p></details>
+<details class="rv"><summary>Is pick-up and drop-off available?</summary><p>Not offered as a regular service.</p></details>
+<details class="rv"><summary>What happens if plans or weather change?</summary><p>Our team contacts parents with updated arrangements.</p></details>
+<details class="rv"><summary>How do I confirm the booking?</summary><p>Select a session and complete secure payment in the applicable <a href="https://youngleaders.in/book/" data-t="booking_redirect">booking journey</a>.</p></details>
+</div>
+<aside class="faqcta rv" aria-label="Help choosing a workshop"><h3>Not sure which workshop fits?</h3><p>Tell us your child’s age and interests and we’ll suggest suitable options.</p><a class="btn" href="#enquire" data-t="faq_cta_click">Need Help Choosing? Enquire Now</a></aside></div></div></section>
+
+<section id="start" data-fold="Final CTA" data-n="12" class="final"><!-- DEV NOTE: Do not imply a seat is reserved before booking is paid and confirmed. Confirm the support phone/email are actively monitored. --><span class="blob" style="width:240px;height:240px;background:var(--coral);right:-80px;top:-60px"></span><div class="wrap"><img class="rv" src="https://youngleaders.in/wp-content/uploads/2026/08/WhatsApp-Image-2026-08-08-at-3.03.35-PM-scaled.jpeg" alt="Children at a recent Young Leaders workshop"><div class="rv"><h2>Give Your Child More Chances to Speak Up, Try New Things &amp; Grow.</h2>
+<p>Explore hands-on Young Leaders experiences designed to build confidence, curiosity, communication and everyday skills.</p>
+<div class="fcta"><a class="btn" id="fcta1" href="#enquire" data-t="final_cta_click">Find a Workshop for My Child</a><a class="link" id="fcta2" href="https://wa.me/918920402920?text=Hi%20Young%20Leaders%2C%20I%27d%20like%20to%20talk%20to%20the%20team%20about%20a%20workshop%20for%20my%20child.%20(From%20your%20website%3A%20final%20section)" target="_blank" rel="noopener" data-t="whatsapp_click" data-alt="https://wa.me/918920402920?text=Hi%20Young%20Leaders%2C%20I%20have%20another%20question%20about%20workshops.%20(From%20your%20website%3A%20final%20section)">Talk to the Team</a></div>
+<p class="fnote">Ages 5–12 &nbsp;•&nbsp; Delhi NCR &nbsp;•&nbsp; Workshop details shared before booking</p></div></div></section>
+
+<!-- DEV NOTE: Replace Privacy/Terms "#" with real page URLs before launch. -->
+<footer><div class="wrap"><img src="https://youngleaders.in/wp-content/uploads/2025/10/mobile-logo-e1713449575263-2.png" alt="Young Leaders"><div>📞 <a href="tel:+918920402920" data-t="phone_click">+91-8920402920</a> · ✉️ <a href="mailto:nidhi@youngleaders.in" data-t="email_click">nidhi@youngleaders.in</a> · 258, 3rd Floor, Okhla Phase 3</div><div><a href="https://www.instagram.com/youngleaders_official/" rel="noopener">Instagram</a> · <a href="https://www.facebook.com/profile.php?id=61559692785283" rel="noopener">Facebook</a> · <a href="#">Privacy</a> · <a href="#">Terms</a></div></div></footer>
+<div class="sticky"><a class="btn" href="#enquire">Find a Workshop</a></div>
+<div class="lb" id="lb" role="dialog" aria-modal="true" aria-label="Workshop photo viewer"><button class="x" aria-label="Close photo">×</button><button class="pv" aria-label="Previous photo">‹</button><img alt=""><div class="cap"></div><button class="nx" aria-label="Next photo">›</button></div>
+
+<script>
+var U="https://youngleaders.in/wp-content/uploads/";
+var W=[["Leadership Lab","Practise communication, teamwork and initiative.","Ages 8–12","Schedule to be confirmed","2025/02/WhatsApp-Image-2025-02-11-at-16.12.13.jpeg"],
+["Creativity Workshop","Make, imagine and express big ideas.","Ages 5–12","2 hours","2025/10/WhatsApp-Image-2025-10-09-at-11.09.01-AM.jpeg"],
+["Pizza Making","Build confidence and teamwork in the kitchen.","Ages 5–12","2 hours","2025/10/WhatsApp-Image-2025-02-11-at-15.41.06.jpeg"],
+["Kaleidoscope Workshop","Discover colour, patterns and playful science.","Ages 5–12","2 hours","2026/06/WhatsApp-Image-2026-05-23-at-1.42.02-PM-scaled.jpeg"],
+["Butterflies Walk","Explore nature and learn to observe closely.","Ages 5–12","2 hours","2025/10/WhatsApp-Image-2025-10-14-at-4.48.51-PM-scaled.jpeg"],
+["Finishing School","Practise everyday confidence, communication and poise.","Ages 8–12","1 hour","2025/10/WhatsApp-Image-2025-10-14-at-4.44.50-PM-scaled.jpeg"]];
+document.getElementById("pg").innerHTML=W.map(function(w){return '<div class="card pc rv"><div class="ph"><img loading="lazy" src="'+U+w[4]+'" alt="'+w[0]+' session" onerror="this.style.opacity=0"></div><div class="body"><span class="pill">'+w[2]+'</span><span class="pill b">'+w[3]+'</span><h3>'+w[0]+'</h3><p>'+w[1]+'</p><a class="btn sm" href="#enquire" data-w="'+w[0]+'">Ask About This Workshop</a></div></div>'}).join("");
+var G=[["2026/08/WhatsApp-Image-2026-08-08-at-3.03.35-PM-scaled.jpeg","Speaking up","A child presenting confidently to the group at a Young Leaders workshop","anchor"],
+["2026/08/WhatsApp-Image-2026-07-30-at-4.57.54-PM-scaled.jpeg","Working together","Children collaborating in a circle during a workshop activity","tall"],
+["2026/08/WhatsApp-Image-2026-07-19-at-2.00.05-PM-scaled.jpeg","Creating something new","Children making a craft with their hands","" ],
+["2025/10/WhatsApp-Image-2025-02-11-at-15.41.06.jpeg","Pizza Making","Close-up of children making pizza in the Pizza Making workshop",""],
+["2025/10/WhatsApp-Image-2025-10-14-at-4.48.51-PM-scaled.jpeg","Learning in nature","A guided nature walk with a group of children outdoors","wide"],
+["2026/08/WhatsApp-Image-2026-06-11-at-12.17.24-PM-scaled.jpeg","Trying life skills","A child trying a practical everyday life skill with guidance",""],
+["2025/10/WhatsApp-Image-2025-10-09-at-11.12.08-AM.jpeg","Thinking independently","A facilitator talking with a child about their ideas",""]];
+var gal=document.getElementById("gal");
+gal.innerHTML=G.map(function(g,i){return '<figure role="listitem" class="rv '+g[3]+'" tabindex="0" data-i="'+i+'" aria-label="View larger photo: '+g[1]+'"><img '+(i?'loading="lazy" ':'')+'decoding="async" src="'+U+g[0]+'" alt="'+g[2]+'"><figcaption>'+g[1]+'</figcaption></figure>'}).join("");
+var lb=document.getElementById("lb"),li=lb.querySelector("img"),lc=lb.querySelector(".cap"),cur=0,opener=null;
+function show(i){cur=(i+G.length)%G.length;li.src=U+G[cur][0];li.alt=G[cur][2];lc.textContent=G[cur][1]}
+function openLb(i,el){opener=el;show(i);lb.classList.add("on");lb.querySelector(".x").focus()}
+function closeLb(){lb.classList.remove("on");if(opener)opener.focus()}
+gal.addEventListener("click",function(e){var f=e.target.closest("figure");if(f)openLb(+f.dataset.i,f)});
+gal.addEventListener("keydown",function(e){if(e.key==="Enter"||e.key===" "){var f=e.target.closest("figure");if(f){e.preventDefault();openLb(+f.dataset.i,f)}}});
+lb.querySelector(".x").onclick=closeLb;lb.querySelector(".pv").onclick=function(){show(cur-1)};lb.querySelector(".nx").onclick=function(){show(cur+1)};
+lb.addEventListener("click",function(e){if(e.target===lb)closeLb()});
+document.addEventListener("keydown",function(e){if(!lb.classList.contains("on"))return;if(e.key==="Escape")closeLb();if(e.key==="ArrowLeft")show(cur-1);if(e.key==="ArrowRight")show(cur+1)});
+var f=document.getElementById("f"),sel=document.getElementById("w");
+document.addEventListener("click",function(e){var a=e.target.closest("[data-w]");if(a){var v=a.dataset.w;/Leadership/.test(v)?sel.value="Leadership & teamwork":/Creativ|Kaleid/.test(v)?sel.value="Creativity":/Pizza/.test(v)?sel.value="Life skills":/Butter/.test(v)?sel.value="Outdoor exploration":/Finishing/.test(v)?sel.value="Confidence & communication":0;try{window.dataLayer=window.dataLayer||[];dataLayer.push({event:"programme_select",workshop:v})}catch(x){}}});
+var LEAD_ENDPOINT="";/* TODO: set to your CRM/webhook URL (HTTPS). Leave empty to skip sending. */
+var utm={};try{new URLSearchParams(location.search).forEach(function(v,k){if(/^utm_/.test(k)||k==="gclid"||k==="fbclid")utm[k]=v})}catch(x){}
+var picked="";
+document.addEventListener("click",function(e){var a=e.target.closest("[data-w]");if(a)picked=a.dataset.w});
+function track(ev,o){try{window.dataLayer=window.dataLayer||[];var d={event:ev};for(var k in o)d[k]=o[k];dataLayer.push(d)}catch(x){}}
+track("page_view",{page:location.pathname});
+var started=false;f.addEventListener("focusin",function(){if(!started){started=true;track("form_start")}});
+f.addEventListener("submit",function(e){e.preventDefault();var ok=true,first=null;
+[["n",function(el){return el.value.trim().length>1},"Please enter your name"],["p",function(el){return /^[+\d\s-]{10,14}$/.test(el.value)},"Enter a valid phone number"],["a",function(el){return el.value>=5&&el.value<=12},"Age must be between 5 and 12"],["w",function(el){return el.value},"Please choose one"],["c",function(el){return el.checked},"Please confirm to continue"]].forEach(function(r){var el=document.getElementById(r[0]),er=document.getElementById("e_"+r[0]),g=r[1](el);er.textContent=g?"":r[2];el.setAttribute("aria-invalid",!g);if(!g){ok=false;if(!first)first=el}});
+if(!ok){first.focus();return}
+var lead={parent_name:document.getElementById("n").value.trim(),phone:document.getElementById("p").value.trim(),child_age:+document.getElementById("a").value,interest:sel.value,preferred_location:document.getElementById("l").value.trim(),selected_workshop_or_plan:picked,consent_parent_guardian:true,consent_text:"Parent/guardian agrees to be contacted about workshops; Privacy Notice read",utm:utm,source_page:location.href,referrer:document.referrer,submitted_at:new Date().toISOString()};
+var btn=f.querySelector("button[type=submit]"),ef=document.getElementById("e_f");ef.textContent="";btn.disabled=true;
+var send=LEAD_ENDPOINT?fetch(LEAD_ENDPOINT,{method:"POST",headers:{"Content-Type":"application/json"},body:JSON.stringify(lead),keepalive:true}).then(function(r){if(!r.ok)throw 0}):Promise.resolve();
+send.then(function(){track("lead_submit_success");
+f.style.display="none";try{sessionStorage.setItem("yl_lead","1")}catch(x){}ylDone();var okb=document.getElementById("ok");okb.style.display="block";okb.focus()},function(){btn.disabled=false;ef.textContent="Sorry, something went wrong. Please try again or call +91-8920402920."})});
+document.addEventListener("click",function(e){var t=e.target.closest("[data-t]");if(t){try{window.dataLayer=window.dataLayer||[];dataLayer.push({event:t.dataset.t,section:(t.closest("[data-fold]")||{dataset:{}}).dataset.fold||""})}catch(x){}}});
+document.addEventListener("toggle",function(e){var d=e.target;if(d.tagName==="DETAILS"&&d.open){try{window.dataLayer=window.dataLayer||[];dataLayer.push({event:"faq_open",question:d.querySelector("summary").textContent})}catch(x){}}},true);
+function ylDone(){var a=document.getElementById("fcta1"),b=document.getElementById("fcta2");if(!a||!b)return;a.textContent="View Workshops";a.setAttribute("href","#workshops");b.textContent="Ask Another Question";b.setAttribute("href",b.dataset.alt)}
+try{if(sessionStorage.getItem("yl_lead"))ylDone()}catch(x){}
+var io=new IntersectionObserver(function(es){es.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.12});
+document.querySelectorAll(".rv").forEach(function(el,i){el.style.transitionDelay=(i%3)*.1+"s";io.observe(el)});
+
+if(/[?&]folds=1/.test(location.search)){/* review overlays: add ?folds=1 to the URL */
+var secs=[].slice.call(document.querySelectorAll("section[data-fold]")),dn=document.createElement("nav");dn.className="dots";dn.setAttribute("aria-label","Page sections");
+secs.forEach(function(x){var t=document.createElement("div");t.className="ftag";t.innerHTML="<b>"+x.dataset.n+"</b>"+x.dataset.fold;x.insertBefore(t,x.firstChild);
+var a=document.createElement("a");a.href="#"+x.id;a.setAttribute("aria-label",x.dataset.fold);a.innerHTML="<span>"+x.dataset.n+" · "+x.dataset.fold+"</span>";dn.appendChild(a);x._a=a});
+document.body.appendChild(dn);
+var so=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){secs.forEach(function(x){x._a.classList.toggle("on",x===e.target)})}})},{rootMargin:"-45% 0px -50% 0px"});
+secs.forEach(function(x){so.observe(x)});
+}
+var st=document.querySelector(".sticky"),vis={};
+if(st&&"IntersectionObserver"in window){var so2=new IntersectionObserver(function(es){es.forEach(function(x){vis[x.target.id||"ft"]=x.isIntersecting});st.classList.toggle("hide",Object.keys(vis).some(function(k){return vis[k]}))});
+[document.getElementById("enquire"),document.querySelector("footer")].forEach(function(el){if(el)so2.observe(el)})}
+
+</script></body></html>
